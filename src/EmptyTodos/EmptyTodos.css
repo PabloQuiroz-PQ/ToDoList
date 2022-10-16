@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.btn-icon {
+  background-color: #21326d;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.EmptyTodos{
+  font-family: 'Permanent Marker', cursive;
+  color: #21326d;
+}

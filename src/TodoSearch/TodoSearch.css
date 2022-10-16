@@ -1,0 +1,41 @@
+.box{
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: #21326d;
+  outline: none;
+  transition: .5s;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 26px;
+  background-position: center;
+  
+}
+
+.box:hover input{
+  width: 100%;
+  background: snow;
+  border-radius: 10px;
+  color: #21326d;
+}
+
+.icon{
+  position: absolute;
+  font-size: 26px;
+  color: #21326d;
+  transition: .2s;
+}
+
+.box:hover i{
+  opacity: 0;
+  z-index: -1;
+}

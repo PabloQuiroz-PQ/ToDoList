@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+form {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 26px;
+  font-family: 'Permanent Marker', cursive;
+  color: #21326d;
+}
+
+textarea {
+  border-radius: 2px;
+  color: #1e1e1f;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+  color: #a5a5a5;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+textarea:focus {
+  outline-color: #21326d;
+}
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.btn_TodoForm {
+  background-color: #24377b;
+}
+
+.btn_TodoForm:hover {
+  background-color: #1b2858;
+}
+
+

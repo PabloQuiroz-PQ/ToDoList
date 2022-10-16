@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Marvel:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+.rowPostit {
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.postit {
+  display: inline-block;
+  width: 100%;
+  padding: 4rem 1rem 7rem 1rem;
+  background-color: #f8f86b;
+  position: relative;
+}
+
+.postit:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  background-color: skyblue;
+  top: 0px;
+  right: 0px;
+  border-bottom: 20px solid #fefe8a;
+  border-left: 20px solid #fefe8a;
+  border-right: 20px solid #f2f4f5;
+  border-top: 20px solid #f2f4f5;
+  position: absolute;
+  filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.5));
+}
+
+.postit:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-top: 40px solid #fefe8a;
+  border-right: 40px solid #fefe8a;
+  border-left: 40px solid #f2f4f5;
+  border-bottom: 40px solid #f2f4f5;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  filter: drop-shadow(7px -7px 5px rgba(0, 0, 0, 0.5));
+  margin-right: 10%;
+}
+
+.postit:nth-of-type(1) {
+  margin-right: 9%;
+}
+.postit h3 {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: bold;
+  color: #21326d;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.postit p {
+  color: #21326d;
+  font-size: 30px;
+  font-family: 'Reenie Beanie', cursive;
+  line-height: 140%;
+}
+
+.TodoItem_complete {
+  text-decoration: line-through;
+}
+
+.btn-completed{
+  background-color: #34437f;
+}
+
+.btn-completed:hover{
+  background-color: #293253;
+}

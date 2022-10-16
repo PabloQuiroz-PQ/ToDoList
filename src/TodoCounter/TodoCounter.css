@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.TodoCounter {
+  font-size: 28px;
+  font-family: 'Permanent Marker', cursive;
+  color: #21326d;
+}

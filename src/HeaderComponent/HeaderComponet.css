@@ -1,0 +1,59 @@
+body {
+  background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
+
+
+.offset {
+  margin-top: 100px;
+  padding-top: 100px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.offset_small {
+  padding-top: 140px;
+}
+
+.header {
+  position:fixed; 
+  top:0; 
+  left:0; 
+  z-index:2000; 
+  width: 100%;
+  height: 150px;
+  font-weight: bold;
+  text-align: center;
+  background: gold;
+  transition: 0.3s;
+}
+
+.small {
+  height: 70px;
+  box-shadow: 0 0 5px rgba(black, 0.2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.header_logo {
+  font-family: 'Permanent Marker', cursive;
+  color: #21326d;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 50px;
+  text-shadow: 3px 4px rgba(black, 0.1);
+  transition: 0.3s;
+  
+}
+
+.header_logo_small {
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+.HeaderComponet h6{
+  font-family: "Permanent Marker", sans-serif;
+  color: #21326d;
+ 
+}
+
