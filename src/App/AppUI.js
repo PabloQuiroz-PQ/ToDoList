@@ -46,7 +46,7 @@ function AppUI() {
             {!loading && searchedTodos.length <= 0 && (
               <EmptyTodos
                 className="mt-6"
-                titulo={"No tienens tareas registradas..."}
+                titulo={"No tienes tareas registradas..."}
               />
             )}
 
