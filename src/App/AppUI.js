@@ -46,7 +46,11 @@ function AppUI() {
             {!loading && searchedTodos.length <= 0 && (
               <EmptyTodos
                 className="mt-6"
+<<<<<<< HEAD
                 titulo={"No hay tareas registradas..."}
+=======
+                titulo={"No tienes tareas registradas..."}
+>>>>>>> ed06afcd1e4cbe031d454cd25fb5d75ee9c07fad
               />
             )}
 
